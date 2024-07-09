@@ -1,0 +1,151 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.2",
+  "deps": {
+    "nx": "^19.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "16641585843931492196"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17046115416634824464"
+      },
+      {
+        "file": "package.json",
+        "hash": "12848234378279192870"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "3097983303653545603"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "17914640473876345273"
+      }
+    ],
+    "projectFileMap": {
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "17443293917265500537"
+        },
+        {
+          "file": "packages/shared-ui/README.md",
+          "hash": "1684915117207218527"
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "14615795630269189783"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "5539396182257782921",
+          "deps": [
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "10698384354242747156"
+        }
+      ],
+      "my-remix-app": [
+        {
+          "file": "apps/my-remix-app/.eslintrc.cjs",
+          "hash": "7641779309036131719"
+        },
+        {
+          "file": "apps/my-remix-app/.gitignore",
+          "hash": "2267986781002139465"
+        },
+        {
+          "file": "apps/my-remix-app/README.md",
+          "hash": "2643931112379010498"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.client.tsx",
+          "hash": "5186934067478039483"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.server.tsx",
+          "hash": "3025734087346391440"
+        },
+        {
+          "file": "apps/my-remix-app/app/root.tsx",
+          "hash": "13515499059311305228"
+        },
+        {
+          "file": "apps/my-remix-app/app/routes/_index.tsx",
+          "hash": "16061990605112204035"
+        },
+        {
+          "file": "apps/my-remix-app/app/tailwind.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "apps/my-remix-app/package.json",
+          "hash": "18217864648491699328",
+          "deps": [
+            "npm:@remix-run/dev",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vite-tsconfig-paths",
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "npm:@remix-run/serve",
+            "npm:isbot",
+            "npm:react",
+            "npm:react-dom",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/my-remix-app/postcss.config.js",
+          "hash": "1886002347757770194"
+        },
+        {
+          "file": "apps/my-remix-app/public/favicon.ico",
+          "hash": "3730367829618743876"
+        },
+        {
+          "file": "apps/my-remix-app/tailwind.config.ts",
+          "hash": "8009140362371304825"
+        },
+        {
+          "file": "apps/my-remix-app/tsconfig.json",
+          "hash": "11447546127494410491"
+        },
+        {
+          "file": "apps/my-remix-app/vite.config.ts",
+          "hash": "13261507087725994784"
+        }
+      ],
+      "my-custom-features": [
+        {
+          "file": "packages/my-custom-features/package.json",
+          "hash": "74505183841789193"
+        }
+      ]
+    }
+  }
+}

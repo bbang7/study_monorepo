@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build my-custom-features",
+    "startTime": "2024-07-09T08:15:48.712Z",
+    "endTime": "2024-07-09T08:15:49.876Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "my-custom-features:build",
+      "target": "build",
+      "projectName": "my-custom-features",
+      "hash": "3488757228130263468",
+      "startTime": "2024-07-09T08:15:48.721Z",
+      "endTime": "2024-07-09T08:15:49.875Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
