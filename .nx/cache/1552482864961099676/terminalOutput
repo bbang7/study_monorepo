@@ -1,0 +1,28 @@
+
+> my-remix-app@ build C:\Users\조병철\OneDrive\Desktop\PJT\mono-repo-test\pnpm-mono\apps\my-remix-app
+> remix vite:build
+
+[36mvite v5.3.3 [32mbuilding for production...[36m[39m
+transforming...
+
+[1m[33mwarn[39m[22m - No utility classes were detected in your source files. If this is unexpected, double-check the `content` option in your Tailwind CSS configuration.
+[1m[33mwarn[39m[22m - https://tailwindcss.com/docs/content-configuration
+[32m✓[39m 87 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mbuild/client/[22m[32m.vite/manifest.json              [39m[1m[2m  1.12 kB[22m[1m[22m[2m │ gzip:  0.32 kB[22m
+[2mbuild/client/[22m[35massets/root-BMTRAcdn.css         [39m[1m[2m  4.73 kB[22m[1m[22m[2m │ gzip:  1.39 kB[22m
+[2mbuild/client/[22m[36massets/_index-74_VH0aP.js        [39m[1m[2m  0.36 kB[22m[1m[22m[2m │ gzip:  0.23 kB[22m
+[2mbuild/client/[22m[36massets/root-Cp84mPmz.js          [39m[1m[2m  1.44 kB[22m[1m[22m[2m │ gzip:  0.84 kB[22m
+[2mbuild/client/[22m[36massets/entry.client-CqMLZIdi.js  [39m[1m[2m  4.11 kB[22m[1m[22m[2m │ gzip:  1.56 kB[22m
+[2mbuild/client/[22m[36massets/jsx-runtime-56DGgGmo.js   [39m[1m[2m  8.11 kB[22m[1m[22m[2m │ gzip:  3.05 kB[22m
+[2mbuild/client/[22m[36massets/components-CPckMTFJ.js    [39m[1m[2m243.44 kB[22m[1m[22m[2m │ gzip: 78.49 kB[22m
+[32m✓ built in 1.23s[39m
+[36mvite v5.3.3 [32mbuilding SSR bundle for production...[36m[39m
+transforming...
+[32m✓[39m 8 modules transformed.
+rendering chunks...
+[2mbuild/server/[22m[32m.vite/manifest.json               [39m[1m[2m0.22 kB[22m[1m[22m
+[2mbuild/server/[22m[35massets/server-build-BMTRAcdn.css  [39m[1m[2m4.73 kB[22m[1m[22m
+[2mbuild/server/[22m[36mindex.js                          [39m[1m[2m6.24 kB[22m[1m[22m
+[32m✓ built in 62ms[39m
